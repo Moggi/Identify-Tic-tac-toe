@@ -50,11 +50,15 @@ end
 
 if resultado == 0
     disp('Jogador O ganhou');
+    out='Jogador O ganhou';
     
 elseif resultado == 1
     disp('Jogador X ganhou');
+    out='Jogador X ganhou';
 
 else
     disp('Jogo inacabado ou Velha');
+    out='Jogo inacabado ou Velha';
+
 end
 
